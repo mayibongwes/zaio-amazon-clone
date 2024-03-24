@@ -1,0 +1,78 @@
+/* Reset text styles applied by Meyerweb's reset or browser defaults */
+body,
+fieldset,
+legend,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+pre,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+th,
+td,
+form,
+label,
+textarea,
+input,
+blockquote,
+caption,
+button,
+iframe,
+object {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
+
+/* Set default font and establish base size */
+html {
+  font-family: sans-serif;
+  font-size: 16px; /* This is a common base size, adjust as needed */
+}
+
+/* Set font sizes for headings using rem units */
+h1 {
+  font-size: 2.25rem; /* Adjust as needed */
+}
+
+h2 {
+  font-size: 1.75rem; /* Adjust as needed */
+}
+
+h3 {
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+h4 {
+  font-size: 1.25rem; /* Adjust as needed */
+}
+
+h5,
+h6 {
+  font-size: 1rem; /* Adjust as needed */
+}
+
+/* Set font size for paragraphs and other text elements */
+p,
+span,
+a {
+  font-size: 1rem; /* Adjust as needed */
+}
+
+/* Adjust font size for smaller elements like captions */
+caption,
+small {
+  font-size: 0.875rem; /* Adjust as needed */
+}
